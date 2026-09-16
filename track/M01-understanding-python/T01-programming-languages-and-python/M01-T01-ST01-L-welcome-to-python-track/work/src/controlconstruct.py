@@ -35,6 +35,28 @@ if(free_tonight):
 else:
     print("not available for party")
 
+#wap to accept a no.from 1 to 7 and use match case to print corresponding day of the week
+day =int(input("enter the no. between 1 to 7 "))
+match day:
+    case 1: print("Monday")
+    case 2: print("Tuesday")
+    case 3: print("Wednesday")
+    case 4: print("Thursday")
+    case 5: print("Friday")
+    case 6: print("saturday")
+    case 7: print("sunday")
+    case _: print("Invalid")
 
+#match case with multiple cases/ wap that accept
+
+month = int(input("enter the month number(1-12)"))
+match month:
+    case 3|4|5 :
+        print("Summer")
+    case 6|7|8 :
+        print("Monsoon")
+    case 9|10|11:
+        print("winter")
     
 
+ 
