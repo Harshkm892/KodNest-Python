@@ -1,0 +1,9 @@
+list=[1,2,3,5,"harsh","aryan"]
+print(list)
+print(list[0:5])
+print(list[1:4:1])
+list.pop()
+print(list)
+list.extend([6,7,8])
+print(list)
+print(type(list))
